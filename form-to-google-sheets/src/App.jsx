@@ -8,8 +8,14 @@ import GooglesheetRecord from "./GooglesheetRecord";
 function App() {
   return (
     <>
-      <GooglesheetsForm />
-      <GooglesheetRecord />
+      <div style={{ display: "flex", justifyContent: "space-between", height: "100vh" }}>
+        <div style={{ flex: 1, marginRight: "10px" }}>
+          <GooglesheetsForm />
+        </div>
+        <div style={{ flex: 1, marginLeft: "10px", overflowY: "auto" }}>
+          <GooglesheetRecord />
+        </div>
+      </div>
     </>
   );
 }
