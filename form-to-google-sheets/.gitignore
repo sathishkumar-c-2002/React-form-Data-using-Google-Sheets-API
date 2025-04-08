@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 .env.local
-google
+google/gsheets-to-report-f9aad096c286.json
