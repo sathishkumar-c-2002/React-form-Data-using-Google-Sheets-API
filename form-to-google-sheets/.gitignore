@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+google
 dist-ssr
 *.local
 
@@ -24,4 +25,3 @@ dist-ssr
 *.sw?
 
 .env.local
-google/gsheets-to-report-f9aad096c286.json
