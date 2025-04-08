@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gsheets-to-report",
+  "private_key_id": "f9aad096c2869f251440dec44f612dbaf5379ff8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDXdAEM8r2kyb8\nR2ncsVSbQLxJxdfI57oZ+0CFRkCRJ0kHmwua9qY6zWmCuw3lUa9hDEB1ZWw9O9pE\nCSKmjl9AmTg55FWdkk1LrnbV7C+Dal/De5EMeLLpp7Ggy3NG9t1wHdnIuZS66xla\nzQ+KVur8zJJb/jypsukAqC+7nvikdwwFWftAR8MjkWxc74kWdRGu3+Gd+rkH6JdH\nJMVrY1hKvpTbg5E+Ss8cRaBA3KUSgi4Y4RlO7CvX5Pg0H8PcrDj87xrrc7k3HN40\nQC2sweOCx6eEoSgGat49i6yQeqNQengSNVIu1mLp4h91QR6BWew5hA8XomAbyV1I\nHGCgiNGLAgMBAAECggEABP6jgFAAquAlOYLr4nAILTXw+mPb+e9usxZY1m9u3Cco\nd1DP8aTHqC4zOdvlZYz6kl0ZUscGhuQ+VsnzAFYYelLQfK5pP++LGVm7AQoaRt5T\n13ATy8FUNaQLZwR8jH5oN+MTe82+zy6OheNDN/Kz7EWgokh0LZR8337tRXsxeSbk\ndun5+Rg6cPkQXGOj2GFIP1F5OUOUJF0gN+je6m9FeP0nmlpLUMzKX8RabslSTrNr\nullQ9Q9KNiGGE6NlZR5UrRhcisgjib4AlFxa2fsrH6z8VJ5PsvmVLhd6IOIe4UsP\npC3cWQS7Prq7QDa/tEE1QCNeDjh+SZsTZMJeeBnnYQKBgQD/fObAQidxA0cfHV4U\nW0N/WxkopAQp6ycWbzJe2nsDqqAClR5jJtmWzngivaDbwxv5AG/HYz9PuKD/Qc2b\nzU5kF3dGlvxQPkixZknV1AmELsB0MH0qx0R+u5d1DKd/eiT+Vpy7sg6FBsrbXGt2\n+pZQYJG+MjEntM5D692fFyNpIQKBgQDDwg+g5JRcBtmRZmBzbfBPiuZX/qdGeCju\nAbisMRRZK15FWA7nfPSEO1tTUjm1mMeyzPUhlNpGBJFUNsZsvKwrAUUokmUt3EA5\nlV0P6E1AGz/2CzzsA5hUtZKz++E7m/od8hDA1ColoMiVAf4Udx3UoeyOiJ1gHNJ0\n+7fOrmQJKwKBgGuGZ582uF7J4F7p/zRWDJxG/Nmr3cy+mR7KAcsF7IvofZtYowdb\nzGu5zbnhURfsj5NGacTisjydGbUUPrJ5v6pEbgCZfutOq01uHVkO+kpVWs4LskIU\nx3EHBoFOqBfwki0wypn8IDxAVZPo25mhcS221t/TQ/jQEZdoZ0eTd2XBAoGABpGB\nYr2ouLnGHRnZTKY4tQKNHhC+Xh/0B6BpKOXwr9lDrYH55gyMS8+ODeqpYw2ATeCQ\nrRLIjCblFXVNDSL7h+nf/y+CU5qbURNQ7xK1XNxNNh1Eawrn1pfNF1rxQMXIC68u\nnrm/vEl70XwioV8p0hOo01OELFBrQ1+a2EWDt8cCgYEAs9eY3ozkxbgkGddexLur\nQx2wQl95kPlLOCb3IcdcWeU9daKsqo1U8wZs1bMIQT02AnZnJq5qHF8m94JQJta1\ndTx8ViZv27bCIxLyYOYYsOvff44K3JIAf/AeQD1boodDPJYl8FDMFikDYwapKm/h\nYmf/R9wl7fR4vycinQrsBP8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "react-sheets-access@gsheets-to-report.iam.gserviceaccount.com",
+  "client_id": "100361692220699246744",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/react-sheets-access%40gsheets-to-report.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
