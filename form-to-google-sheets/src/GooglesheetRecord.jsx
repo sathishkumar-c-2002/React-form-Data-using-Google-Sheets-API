@@ -37,41 +37,44 @@ const GooglesheetRecord = () => {
   if (loading) return <div>Loading data...</div>;
 
 return (
-    <div className="sheet-records p-6 bg-gray-100 min-h-screen">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Google Sheet Data</h2>
+  <div className="sheet-records p-6 bg-gray-100 min-h-screen">
+    <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Google Sheet Data</h2>
 
-        {data.length > 0 ? (
-            <div className="overflow-x-auto">
-                <table className="table-auto w-full bg-white shadow-md rounded-lg">
-                    <thead className="bg-gray-800 text-white">
-                        <tr>
-                            {data[0]?.map((header, index) => (
-                                <th key={index} className="px-4 py-2 text-left">
-                                    {header}
-                                </th>
-                            ))}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {data.slice(1).map((row, rowIndex) => (
-                            <tr
-                                key={rowIndex}
-                                className={rowIndex % 2 === 0 ? 'bg-gray-100' : 'bg-white'}
-                            >
-                                {row.map((cell, cellIndex) => (
-                                    <td key={cellIndex} className="border px-4 py-2">
-                                        {cell}
-                                    </td>
-                                ))}
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </div>
-        ) : (
-            <p className="text-center text-gray-600">No data available to display.</p>
-        )}
-    </div>
+    {data.length > 0 ? (
+      <div className="overflow-x-auto">
+        <table className="table-auto w-full bg-white shadow-md rounded-lg">
+          <thead className="bg-gray-800 text-white">
+            <tr>
+              {data[0]?.map((header, index) => (
+                <th key={index} className="px-4 py-2 text-left">
+                  {header}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {data
+              .slice(1)
+              .reverse()
+              .map((row, rowIndex) => (
+                <tr
+                  key={rowIndex}
+                  className={rowIndex % 2 === 0 ? 'bg-gray-100' : 'bg-white'}
+                >
+                  {row.map((cell, cellIndex) => (
+                    <td key={cellIndex} className="border px-4 py-2">
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+          </tbody>
+        </table>
+      </div>
+    ) : (
+      <p className="text-center text-gray-600">No data available to display.</p>
+    )}
+  </div>
 );
 };
 
